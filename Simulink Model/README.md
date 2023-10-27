@@ -5,11 +5,11 @@ Navigating an interaction is a safety-critical task for autonomous vehicles. Usi
 This project requires navigating an intersection safely, considering the traffic light state and surrounding vehicles. The position of other vehicles and traffic light states can be obtained using a combination of sensors and perception algorithms.
 
 Deleverables:
-• A comprehensive survey of existing methods related to the problem.
-• Design implementation in simulation using MATLAB and Simulink.
-• Data collection and thorough performance evaluation of the solution.
-• Project report.
-• Project poster.
+- A comprehensive survey of existing methods related to the problem.
+- Design implementation in simulation using MATLAB and Simulink.
+- Data collection and thorough performance evaluation of the solution.
+- Project report.
+- Project poster.
 
 The adjustments made were:
 - Creating a load shedding environment in Unreal Engine to simulate the traffic lights displaying no colour.
