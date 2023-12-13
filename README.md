@@ -43,10 +43,10 @@ Subsiqunetly, the distance to the traffic light is calculated based on this info
 
 3. Apply the Hough transform to the processed image to identify the stop line based on its angle and length. The distance from the stop line is calculated using a formula shown in the code block during the simulation. Subsequently, the necessary braking is applied for the vehicle to stop at the traffic light.
    
-4. ![Filtered Line](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/ccf26306-5ca9-484a-ac69-b462463f3b95)
+ ![Filtered Line](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/ccf26306-5ca9-484a-ac69-b462463f3b95)
 
 
-For more details on how the prOject was done please refer to my thesis report in the One Drive file.
+For more details on how the project was done please refer to my thesis report in the One Drive file.
 
 
 
