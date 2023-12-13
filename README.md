@@ -18,14 +18,32 @@ All files needed to run the project can be found on this One drive link. Downloa
  ![Full Module](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/de30e896-77bd-43b2-92d0-2662399e95b4)
 
 2. Once the Simulink model is open, you need to change the file location of the Unreal Engine scene. To do this, open the sensors environment sub-model, double-click on the Simulation 3D Scene configuration block, and modify the file path to match the location where you saved the AutoVrtlEnv.uproject in the AutoVert folder. This Unreal Engine scene displays the load shedding conditions. To test normal conditions, modify this block to 'US City Block'.
+![TLNWithUnrealExample_02](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/1a61a560-d5a6-4169-8b11-ff5836b19b92)
+
+
 3. Modify the detector file location to match where you saved the detectorYOLO2.mat file. It should be located in TLNUnreal, within the TLNUnreal folder.
 
 
+There are two main areas in this project: Traffic light state detection and calculating the distance to the intersection stop line. The image below depicts the traffic light during load shedding conidtions. 
+
+![NoState1_1196](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/66701cc0-3144-4dc5-9f04-81f1b5caac2d)
+
+A YOLOv2 detector was trained to indentify the traffic light state. Once the state is identified, the stop line is determined using image processing. Subsiqunetly, the distance to the traffic light is calculated based on this information. The steps are shown in the images below.
+
+1. Convert the image to greyscale
+
+![Grayscale](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/481edbac-062a-4d70-83a2-487b696d7b4d)
+
+2. Filter the image lines using Gaussian filter, and then apply edge detection.
+
+![Edge detection after filtering](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/19a63da7-1b3e-4a6b-9fa8-f3e0bb47ebdf)
+
+3. Apply the Hough transform to the processed image to identify the stop line based on its angle and length. The distance from the stop line is calculated using a formula shown in the code block during the simulation. Subsequently, the necessary braking is applied for the vehicle to stop at the traffic light.
+   
+4. ![Filtered Line](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/ccf26306-5ca9-484a-ac69-b462463f3b95)
 
 
-
-
-
+For more details on how the porject was done please refer to my thesis report in the One Drive file.
 
 
 
