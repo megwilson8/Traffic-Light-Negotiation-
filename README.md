@@ -9,11 +9,9 @@ Perception-based detection utilized a YOLOv2 detector specially trained to recog
 
 In summary, the project successfully identifies the load shedding traffic light state and detects the intersection's stop line. When encountering load shedding conditions, the vehicle stops at the intersection and treats it as a stop street, proceeding cautiously. Additionally, the scenario can be switched to normal conditions, allowing the vehicle to dynamically decide whether to stop or continue over the intersection based on the detected traffic light states, replicating real-world driving behavior. 
 
-# Download all files in this GitHub repository.
-
 How to run: 
 
-All files needed to run the project can be found on this One drive link. Download the folder Meg Matlab https://uctcloud-my.sharepoint.com/:f:/g/personal/wlsmeg005_myuct_ac_za/EnvxSOyK-_5LvkLQAbFS7ScBS-vQ9cjmIyAmt8WAW08hcw?email=capstones%40mathworks.com&e=EJlbTh.
+Download all files in this GitHub repository. All files needed to run the project can be found on this One drive link https://uctcloud-my.sharepoint.com/:f:/g/personal/wlsmeg005_myuct_ac_za/EnvxSOyK-_5LvkLQAbFS7ScBS-vQ9cjmIyAmt8WAW08hcw?email=capstones%40mathworks.com&e=EJlbTh.
 
 1. Open the TLNUnreal folder, click on the TLNUnreal folder, then navigate to Testbench, and open the Simulink model TrafficLightDecisionLogic.slx.
  ![Full Module](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/de30e896-77bd-43b2-92d0-2662399e95b4)
