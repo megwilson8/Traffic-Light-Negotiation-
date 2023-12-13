@@ -11,17 +11,16 @@ In summary, the project successfully identifies the load shedding traffic light 
 
 How to run: 
 
-Download all files in this GitHub repository. All files needed to run the project can be found on this One drive link https://uctcloud-my.sharepoint.com/:f:/g/personal/wlsmeg005_myuct_ac_za/EnvxSOyK-_5LvkLQAbFS7ScBS-vQ9cjmIyAmt8WAW08hcw?email=capstones%40mathworks.com&e=EJlbTh.
+Download all three files in this GitHub repository, TLNWithUnrealTestBench.slxc, detetorYOLO2, and AutoVrtlEnv.uproject. These three files are the project simulink model, the yolov2 detector, and the unreal executable file for load shedding conditions. All additional files needed to run the project can be found on this One drive link https://uctcloud-my.sharepoint.com/:f:/g/personal/wlsmeg005_myuct_ac_za/EnvxSOyK-_5LvkLQAbFS7ScBS-vQ9cjmIyAmt8WAW08hcw?email=capstones%40mathworks.com&e=EJlbTh.
 
-1. Open the TLNUnreal folder, click on the TLNUnreal folder, then navigate to Testbench, and open the Simulink model TrafficLightDecisionLogic.slx.
- ![Full Module](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/de30e896-77bd-43b2-92d0-2662399e95b4)
-
-2. Once the Simulink model is open, you need to change the file location of the Unreal Engine scene. To do this, open the sensors environment sub-model, double-click on the Simulation 3D Scene configuration block, and modify the file path to match the location where you saved the AutoVrtlEnv.uproject in the AutoVert folder. This Unreal Engine scene displays the load shedding conditions. To test normal conditions, modify this block to 'US City Block'.
+Steps:
+1. Open the Simulink model TrafficLightDecisionLogic.slx. ![Full Module](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/de30e896-77bd-43b2-92d0-2662399e95b4)
+2. Once the Simulink model is open, you need to change the file location of the Unreal Engine scene. To do this, open the sensors environment sub-model, double-click on the Simulation 3D Scene configuration block, and modify the file path to match the location where you saved the AutoVrtlEnv.uproject your downloaded from GitHub. This Unreal Engine scene displays the load shedding conditions. To test normal conditions, modify this block to 'US City Block'.
 ![TLNWithUnrealExample_02](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/1a61a560-d5a6-4169-8b11-ff5836b19b92)
-
 
 3. Modify the detector file location to match where you saved the detectorYOLO2.mat file. It should be located in TLNUnreal, within the TLNUnreal folder.
 
+![Full Module](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/de30e896-77bd-43b2-92d0-2662399e95b4)
 
 # Project Breakdown
 There are two main areas in this project: Traffic light state detection and calculating the distance to the intersection stop line. The image below depicts the traffic light during load shedding conidtions. 
