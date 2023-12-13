@@ -1,0 +1,67 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "MathWorksSimulation",
+			"Enabled": true
+		},
+		{
+			"Name": "MathWorksUAVContent",
+			"Enabled": true
+		},
+		{
+			"Name": "MathWorksAerospaceContent",
+			"Enabled": false
+		},
+		{
+			"Name": "MathWorksGeoSpatial",
+			"Enabled": false
+		},
+		{
+			"Name": "MathWorksAutomotiveContent",
+			"Enabled": true
+		},
+		{
+			"Name": "RoadRunnerMaterials",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "GearVR",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusRift",
+			"Enabled": false
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "CesiumForUnreal",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor",
+		"AllDesktop"
+	]
+}
