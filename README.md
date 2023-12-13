@@ -15,6 +15,8 @@ How to run:
 All files needed to run the project can be found on this One drive link. Download the folder Meg Matlab https://uctcloud-my.sharepoint.com/:f:/g/personal/wlsmeg005_myuct_ac_za/EnvxSOyK-_5LvkLQAbFS7ScBS-vQ9cjmIyAmt8WAW08hcw?email=capstones%40mathworks.com&e=EJlbTh.
 
 1. Open the TLNUnreal folder, click on the TLNUnreal folder, then navigate to Testbench, and open the Simulink model TrafficLightDecisionLogic.slx.
+ ![Full Module](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/de30e896-77bd-43b2-92d0-2662399e95b4)
+
 2. Once the Simulink model is open, you need to change the file location of the Unreal Engine scene. To do this, open the sensors environment sub-model, double-click on the Simulation 3D Scene configuration block, and modify the file path to match the location where you saved the AutoVrtlEnv.uproject in the AutoVert folder. This Unreal Engine scene displays the load shedding conditions. To test normal conditions, modify this block to 'US City Block'.
 3. Modify the detector file location to match where you saved the detectorYOLO2.mat file. It should be located in TLNUnreal, within the TLNUnreal folder.
 
