@@ -9,6 +9,7 @@ Perception-based detection utilized a YOLOv2 detector specially trained to recog
 
 In summary, the project successfully identifies the load shedding traffic light state and detects the intersection's stop line. When encountering load shedding conditions, the vehicle stops at the intersection and treats it as a stop street, proceeding cautiously. Additionally, the scenario can be switched to normal conditions, allowing the vehicle to dynamically decide whether to stop or continue over the intersection based on the detected traffic light states, replicating real-world driving behavior. 
 
+# Download all files in this GitHub repository.
 
 How to run: 
 
@@ -24,6 +25,7 @@ All files needed to run the project can be found on this One drive link. Downloa
 3. Modify the detector file location to match where you saved the detectorYOLO2.mat file. It should be located in TLNUnreal, within the TLNUnreal folder.
 
 
+# Project Breakdown
 There are two main areas in this project: Traffic light state detection and calculating the distance to the intersection stop line. The image below depicts the traffic light during load shedding conidtions. 
 
 ![NoState1_1196](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/66701cc0-3144-4dc5-9f04-81f1b5caac2d)
