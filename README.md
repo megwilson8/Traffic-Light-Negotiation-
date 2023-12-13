@@ -6,7 +6,6 @@ The primary challenge faced was replicating the Load Shedding scenario within Un
 
 Perception-based detection utilized a YOLOv2 detector specially trained to recognize all four traffic light states: Green, Yellow, Red, and Load Shedding (No State). Upon identifying the traffic light state, the appropriate logic was implemented to guide the vehicle in either halting at the intersection or proceeding through it. This involved leveraging the detected states to determine the vehicle's response accurately.
 
-
 In summary, the project successfully identifies the load shedding traffic light state and detects the intersection's stop line. When encountering load shedding conditions, the vehicle stops at the intersection and treats it as a stop street, proceeding cautiously. Additionally, the scenario can be switched to normal conditions, allowing the vehicle to dynamically decide whether to stop or continue over the intersection based on the detected traffic light states, replicating real-world driving behavior. 
 
 How to run: 
@@ -27,7 +26,11 @@ There are two main areas in this project: Traffic light state detection and calc
 
 ![NoState1_1196](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/66701cc0-3144-4dc5-9f04-81f1b5caac2d)
 
-A YOLOv2 detector was trained to indentify the traffic light state. Once the state is identified, the stop line is determined using image processing. Subsiqunetly, the distance to the traffic light is calculated based on this information. The steps are shown in the images below.
+A YOLOv2 detector was trained to indentify the traffic light state. Once the state is identified, the stop line is determined using image processing. 
+
+Below shows the load shedding state being detected.
+![NoState1_1196](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/267e5aea-2fe5-4a2e-9460-ad414c50d30b)
+Subsiqunetly, the distance to the traffic light is calculated based on this information. The steps are shown in the images below.
 
 1. Convert the image to greyscale
 
@@ -42,7 +45,7 @@ A YOLOv2 detector was trained to indentify the traffic light state. Once the sta
 4. ![Filtered Line](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/ccf26306-5ca9-484a-ac69-b462463f3b95)
 
 
-For more details on how the porject was done please refer to my thesis report in the One Drive file.
+For more details on how the prOject was done please refer to my thesis report in the One Drive file.
 
 
 
