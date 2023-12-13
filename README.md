@@ -1,4 +1,4 @@
-![boundingbox](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/8766e6e4-24d7-44eb-b071-8fd12efcc951)# Load-Shedding-Traffic-Light-Negotiation
+# Load-Shedding-Traffic-Light-Negotiation
 
 This project involved adapting the existing MATLAB Traffic Light Negotiation with Unreal Engine Visualization model to suit South African conditions, particularly accounting for Load Shedding events. In South Africa, during periods of no electricity, traffic lights function as four-way stops. For simplicity in this project, the traffic lights were simulated as stop signs.
 
