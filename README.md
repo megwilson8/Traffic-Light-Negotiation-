@@ -19,6 +19,8 @@ Steps:
 
 3. Modify the detector file location to match where you saved the detectorYOLO2.mat file. It should be located in TLNUnreal, within the TLNUnreal folder.
 
+4. Run the simulation.
+   
 # Brief Project Breakdown
 There are two main areas in this project: Traffic light state detection and calculating the distance to the intersection stop line. The image below depicts the traffic light during load shedding conditions. 
 
