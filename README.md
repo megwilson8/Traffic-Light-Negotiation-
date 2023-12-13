@@ -1,4 +1,4 @@
-# Load-Shedding-Traffic-Light-Negotiation
+![boundingbox](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/8766e6e4-24d7-44eb-b071-8fd12efcc951)# Load-Shedding-Traffic-Light-Negotiation
 
 This project involved adapting the existing MATLAB Traffic Light Negotiation with Unreal Engine Visualization model to suit South African conditions, particularly accounting for Load Shedding events. In South Africa, during periods of no electricity, traffic lights function as four-way stops. For simplicity in this project, the traffic lights were simulated as stop signs.
 
@@ -29,7 +29,8 @@ There are two main areas in this project: Traffic light state detection and calc
 A YOLOv2 detector was trained to indentify the traffic light state. Once the state is identified, the stop line is determined using image processing. 
 
 Below shows the load shedding state being detected.
-![NoState1_1196](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/267e5aea-2fe5-4a2e-9460-ad414c50d30b)
+![boundingbox](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/216c1c76-018a-4a0e-a0c2-0b18ed9c0cd3)
+
 Subsiqunetly, the distance to the traffic light is calculated based on this information. The steps are shown in the images below.
 
 1. Convert the image to greyscale
