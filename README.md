@@ -20,9 +20,7 @@ Steps:
 
 3. Modify the detector file location to match where you saved the detectorYOLO2.mat file. It should be located in TLNUnreal, within the TLNUnreal folder.
 
-![Full Module](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/de30e896-77bd-43b2-92d0-2662399e95b4)
-
-# Project Breakdown
+# Brief Project Breakdown
 There are two main areas in this project: Traffic light state detection and calculating the distance to the intersection stop line. The image below depicts the traffic light during load shedding conidtions. 
 
 ![NoState1_1196](https://github.com/megwilson8/Traffic-Light-Negotiation-/assets/88933163/66701cc0-3144-4dc5-9f04-81f1b5caac2d)
